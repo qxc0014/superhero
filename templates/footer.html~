@@ -1,0 +1,9 @@
+<!-- footer.html -->
+{% block footer %}
+	{% if now %}
+	<p style='font-family:微软雅黑;'>宇宙时间: {{ now }}</p>
+	{% else %}
+	<p style='font-family:微软雅黑;font-size:6pt;'>你我本英雄</p>
+	{% endif %}
+{% endblock %}
+
